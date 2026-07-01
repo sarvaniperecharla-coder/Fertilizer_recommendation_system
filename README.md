@@ -63,3 +63,18 @@ The model considers the following inputs:
 
 ## Author
 Sarvani
+
+
+## Screenshots
+
+### Registration Page
+![Registration Page](screenshots/register.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Prediction Page
+![Prediction Page](screenshots/predict.png)
+
+### History Page
+![History Page](screenshots/history.png)

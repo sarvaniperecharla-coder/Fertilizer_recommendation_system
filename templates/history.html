@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction History</title>
+</head>
+<body>
+
+<h1>Your Prediction History</h1>
+<a href="/">Home</a> | <a href="/history">History</a>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Soil</th>
+        <th>Crop</th>
+        <th>N</th>
+        <th>P</th>
+        <th>K</th>
+        <th>Temp</th>
+        <th>Humidity</th>
+        <th>Moisture</th>
+        <th>Result</th>
+        <th>Date</th>
+    </tr>
+
+    {% for row in data %}
+    <tr>
+        <td>{{ row[0] }}</td>
+        <td>{{ row[2] }}</td>
+        <td>{{ row[3] }}</td>
+        <td>{{ row[4] }}</td>
+        <td>{{ row[5] }}</td>
+        <td>{{ row[6] }}</td>
+        <td>{{ row[7] }}</td>
+        <td>{{ row[8] }}</td>
+        <td>{{ row[9] }}</td>
+        <td>{{ row[10] }}</td>
+        <td>{{ row[11] }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>

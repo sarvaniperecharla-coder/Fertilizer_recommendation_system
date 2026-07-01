@@ -71,7 +71,7 @@ Sarvani
 ![image_alt](https://github.com/sarvaniperecharla-coder/Fertilizer_recommendation_system/blob/eee0eb67f9bc6aae83f63718643e74a4eaeae3e6/register.png)
 
 ### Login Page
-![Login Page](screenshots/login.png)
+![image_alt](https://github.com/sarvaniperecharla-coder/Fertilizer_recommendation_system/blob/9a6ff8f55abee2583f95891acf40e0f1c5f87557/login.png)
 
 ### Prediction Page
 ![Prediction Page](screenshots/predict.png)
